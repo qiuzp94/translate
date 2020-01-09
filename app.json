@@ -1,0 +1,12 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#2989ff",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "qiuzp翻译",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light"
+    }
+}
