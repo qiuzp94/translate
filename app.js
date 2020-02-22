@@ -36,9 +36,14 @@ App({
                 'index': 4
             },
             {
+                'chs': '西班牙语',
+                'lang': 'spa',
+                'index': 5
+            },
+            {
                 'chs': '阿拉伯语',
                 'lang': 'ara',
-                'index': 5
+                'index': 6
             }
         ]
     }

@@ -1,12 +1,34 @@
 {
-    "pages": [
-        "pages/index/index"
-    ],
-    "window": {
-        "navigationBarBackgroundColor": "#2989ff",
-        "navigationBarTextStyle": "white",
-        "navigationBarTitleText": "qiuzp翻译",
-        "backgroundColor": "#eeeeee",
-        "backgroundTextStyle": "light"
-    }
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2989ff",
+    "navigationBarTitleText": "qiuzp 翻译",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "333"
+  },
+
+
+"tabBar": {
+    "borderStyle": "white",
+    "position": "top",
+    "color": "#595959",
+    "selectedColor": "#2989ff",
+    "list": [
+    
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
